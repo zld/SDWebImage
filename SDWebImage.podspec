@@ -63,6 +63,6 @@ Pod::Spec.new do |s|
     }
     webp.dependency 'SDWebImage/Core'
 #     webp.dependency 'libwebp', '~> 0.5'
-    webp.weak_framework = 'libwebp'
+    webp.weak_framework = 'webp'
   end
 end
