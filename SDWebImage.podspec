@@ -62,6 +62,7 @@ Pod::Spec.new do |s|
       'USER_HEADER_SEARCH_PATHS' => '$(inherited) $(SRCROOT)/libwebp/src'
     }
     webp.dependency 'SDWebImage/Core'
-    webp.dependency 'libwebp', '~> 0.5'
+#     webp.dependency 'libwebp', '~> 0.5'
+    webp.framework = 'libwebp'
   end
 end
